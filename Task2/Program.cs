@@ -29,6 +29,11 @@ int[,] TransformationArray(int[,] filledArray)
 
         }
     }
+    else
+    {
+        Console.WriteLine("Ошибка");
+        return new int [0,0];
+    }
     return transformationArray;
 }
 
